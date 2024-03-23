@@ -6,7 +6,7 @@
 ## checkwifi.sh
 Store this script in /usr/local/bin/checkwifi.sh
 
-Change the IP on the first line to the IP of your router, or some other device on your network that you can assume will be always online.
+Change the IP address variable to the IP of your router or some other device on your network that you can assume will be always online.
 
 Make sure the script has the correct permissions to run:
 ```
