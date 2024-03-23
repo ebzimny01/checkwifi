@@ -3,7 +3,7 @@
 
  Initial source of inspiration came from https://weworkweplay.com/play/rebooting-the-raspberry-pi-when-it-loses-wireless-connection-wifi/.
 
-##checkwifi.sh
+## checkwifi.sh
 Store this script in /usr/local/bin/checkwifi.sh
 
 Change the IP on the first line to the IP of your router, or some other device on your network that you can assume will be always online.
@@ -13,7 +13,7 @@ Make sure the script has the correct permissions to run:
 sudo chmod 775 /usr/local/bin/checkwifi.sh
 ```
 
-##crontab
+## crontab
 SSH into your device and open up the crontab editor by typing `crontab -e`.
 
 Add the following line:
